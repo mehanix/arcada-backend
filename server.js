@@ -52,10 +52,19 @@ function generateFurnitureLibrary() {
         furnitureLibrary[dir].name = categoryData.name
       }
       if (extension == ".svg") {
-        const objName = filename.replaceAll('-', ' ')
+        const objName = filename.split('-')
+        let len = objName.length
+        let width = objName[len-1]
+        let height = objName[len-2]
+        objName.pop()
+        objName.pop()
+        console.log(objName)
+        console.log(width,height)
         newObject = {
           id: filename,
-          name: objName
+          name: objName.join(' '),
+          width:width,
+          height:height
         }
         furnitureLibrary[dir].objects.push(newObject)
       }
