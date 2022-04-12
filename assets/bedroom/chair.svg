@@ -1,0 +1,11 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 82 102" width="82" height="102">
+	<title>New Project</title>
+	<style>
+		.s0 { fill: #ffffff;stroke: #000000;stroke-linecap: square;stroke-width: 2.2 } 
+	</style>
+	<g id="&lt;Group&gt;">
+		<path id="&lt;Path&gt;" class="s0" d="m70.9 97.6c-19.8 4.4-40.4 4.4-60.2 0-6.1-1.4-10.1-7.1-9.3-13.3l8.1-60.3 31.3 3 31.2-3 8.1 60.3c0.9 6.2-3.2 11.9-9.2 13.3z"/>
+		<path id="&lt;Path&gt;" class="s0" d="m9.5 24v-20h62.5v20l-2.9 0.3v-14.3h-10.1v15.3l-3 0.2v-15.5h-8.2v16.3l-2.9 0.3v-16.6h-8.2v16.6l-3-0.3v-16.3h-8.2v15.5l-3-0.2v-15.3h-10v14.3z"/>
+		<path id="&lt;Path&gt;" class="s0" d="m72 4h-62.5v-2.7h62.5z"/>
+	</g>
+</svg>

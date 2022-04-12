@@ -1,0 +1,15 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 172 172" width="172" height="172">
+	<title>New Project</title>
+	<style>
+		.s0 { fill: #ffffff } 
+		.s1 { fill: #000000 } 
+	</style>
+	<g id="&lt;Group&gt;">
+		<g id="&lt;Group&gt;">
+			<g id="&lt;Group&gt;">
+				<path id="&lt;Path&gt;" class="s0" d="m147 62.5l23.4 23.4-84.3 84.3-84.3-84.3 84.3-84.3z"/>
+				<path id="&lt;Compound Path&gt;" fill-rule="evenodd" class="s1" d="m86.1 171.7l-0.8-0.7-85.1-85.1 0.8-0.8 85.1-85.1 0.7 0.8 85.1 85.1-0.8 0.8zm-82.7-85.9l82.7 82.8 82.8-82.8-82.8-82.8z"/>
+			</g>
+		</g>
+	</g>
+</svg>

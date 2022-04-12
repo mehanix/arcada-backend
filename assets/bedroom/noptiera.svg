@@ -1,0 +1,26 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 88 61" width="88" height="61">
+	<title>New Project</title>
+	<style>
+		.s0 { fill: #ffffff;stroke: #000000;stroke-width: 2.2 } 
+		.s1 { fill: #ffffff } 
+		.s2 { fill: #000000 } 
+	</style>
+	<g id="&lt;Group&gt;">
+		<path id="&lt;Path&gt;" class="s0" d="m86.3 59.2h-85.2v-58h85.2z"/>
+		<path id="&lt;Path&gt;" class="s0" d="m81.6 56h-75.7v-51.6h75.7z"/>
+		<circle id="&lt;Path&gt;" class="s0" cx="43.5" cy="30.2" r="13"/>
+		<path id="&lt;Compound Path&gt;" fill-rule="evenodd" class="s0" d="m43.5 8c12.3 0 22.2 9.9 22.2 22.2 0 12.3-9.9 22.2-22.2 22.2-12.2 0-22.2-9.9-22.2-22.2 0-12.3 10-22.2 22.2-22.2zm0 35.2c7.2 0 13-5.8 13-13 0-7.2-5.8-13-13-13-7.1 0-12.9 5.8-12.9 13 0 7.2 5.8 13 12.9 13z"/>
+		<g id="&lt;Group&gt;">
+			<path id="&lt;Path&gt;" class="s1" d="m30.6 30.2c0-7.2 5.8-13 12.9-13"/>
+			<path id="&lt;Path&gt;" class="s2" d="m31.7 30.2h-2.2c0-7.7 6.3-14.1 14-14.1v2.2c-6.5 0-11.8 5.4-11.8 11.9z"/>
+		</g>
+		<g id="&lt;Group&gt;">
+			<path id="&lt;Path&gt;" class="s1" d="m43.5 17.2v26"/>
+			<path id="&lt;Path&gt;" class="s2" d="m44.6 43.2h-2.2v-26h2.2z"/>
+		</g>
+		<g id="&lt;Group&gt;">
+			<path id="&lt;Path&gt;" class="s1" d="m56.5 30.2h-25.9"/>
+			<path id="&lt;Path&gt;" class="s2" d="m56.5 31.3h-25.9v-2.2h25.9z"/>
+		</g>
+	</g>
+</svg>
