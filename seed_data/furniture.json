@@ -1,0 +1,60 @@
+{ 
+        "Bedroom": [
+            {
+                "name": "King size bed",
+                "width": 1.6,
+                "height": 2.0,
+                "imagePath": "king-size-bed"
+            },
+            {
+                "name": "Bedside table",
+                "width": 0.8,
+                "height": 0.4,
+                "imagePath": "bedside-table"
+            }
+        ],
+
+        "Kitchen": [
+            {
+                "name": "Stove",
+                "width": 0.6,
+                "height": 0.6,
+                "imagePath": "stove"
+            }
+        ],
+        "Living Room": [
+            {
+                "name": "Armchair",
+                "width": 1.0,
+                "height": 1.0,
+                "imagePath": "armchair"
+            },
+            {
+                "name": "Loveseat",
+                "width": 1.5,
+                "height": 1.0,
+                "imagePath": "armchair"
+            },
+            {
+                "name": "Couch",
+                "width": 2.0,
+                "height": 1.0,
+                "imagePath": "armchair"
+            },
+            {
+                "name": "Plant",
+                "width": 0.4,
+                "height": 0.4,
+                "imagePath": "armchair"
+            }
+        ],
+        "Bathroom": [],
+        "Office": [
+            {
+                "name": "Chair",
+                "width": 0.6,
+                "height": 0.6,
+                "imagePath": "chair-1"
+            }
+        ]
+}

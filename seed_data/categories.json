@@ -1,0 +1,22 @@
+[
+    {
+        "name": "Bedroom",
+        "_id": "bedroom"
+    },
+    {
+        "name": "Bathroom",
+        "_id": "bathroom"
+    },
+    {
+        "name": "Kitchen",
+        "_id": "kitchen"
+    },
+    {
+        "name": "Office",
+        "_id": "office"
+    },
+    {
+        "name": "Living Room",
+        "_id": "living_room"
+    }
+]
