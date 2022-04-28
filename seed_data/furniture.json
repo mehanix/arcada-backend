@@ -56,5 +56,13 @@
                 "height": 0.6,
                 "imagePath": "chair-1"
             }
+        ],
+        "Wall": [
+            {
+                "name": "Window",
+                "width": 0.1,
+                "height": 0.15,
+                "imagePath": "window"
+            }
         ]
 }

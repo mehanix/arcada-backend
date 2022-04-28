@@ -1,22 +1,26 @@
 [
     {
         "name": "Bedroom",
-        "_id": "bedroom"
+        "visible":true
     },
     {
         "name": "Bathroom",
-        "_id": "bathroom"
+        "visible":true
     },
     {
         "name": "Kitchen",
-        "_id": "kitchen"
+        "visible":true
     },
     {
         "name": "Office",
-        "_id": "office"
+        "visible":true
     },
     {
         "name": "Living Room",
-        "_id": "living_room"
+        "visible":true
+    },
+    {
+        "name":"Wall",
+        "visible":false
     }
 ]

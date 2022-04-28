@@ -50,6 +50,25 @@ app.get(`/category/:categoryId`, async (req, res) => {
     })
 })
 
+app.get("/wall/window", async (req,res) => {
+    Furniture.find({"name":"Window"}).then((err, furniture) => {
+        if (err) {
+            res.send({"err":err})
+            return;
+         }
+        res.send(furniture);
+    })
+})
+
+app.get("wall/door", async (req,res) => {
+    Furniture.find({"name":"door"}).then((err, furniture) => {
+        if (err) {
+            res.send({"err":err})
+            return;
+         }
+        res.send(furniture);
+    })
+})
 
 app.get(`/furniture/:furnitureId`, async (req, res) => {
 

@@ -8,7 +8,6 @@ async function populateDb() {
     await Category.collection.drop();
     await Furniture.collection.drop();
     populateCategories();
-    populateFurniture();
     console.log("Seed complete")
 
 }
@@ -33,7 +32,4 @@ async function populateCategories() {
     }
 }
 
-function populateFurniture() {
-
-}
 module.exports = { populateDb };
