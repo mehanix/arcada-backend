@@ -6,11 +6,12 @@ const app = express();
 const populate = require('./populate');
 const Category = require("./models/category");
 const Furniture = require("./models/furniture");
+const cors = require('cors')
 app.use(bodyParser.json());
-
+app.use(cors())
 mongoose.connect(process.env.DB_CONNECTION_STRING_LOCAL, (req, res) => {
     console.log("connected")
-    // populate.populateDb();
+    populate.populateDb();
 
 })
 
@@ -30,7 +31,7 @@ app.post("/add_category", async (req, res) => {
 
 app.get("/categories", async (req, res) => {
     
-   Category.find({}).then((err, categories) => {
+   Category.find({}).then((categories, err) => {
        if (err) {
            res.send({"err":err})
            return;
@@ -41,7 +42,7 @@ app.get("/categories", async (req, res) => {
 
 app.get(`/category/:categoryId`, async (req, res) => {
 
-    Furniture.find({"category":req.params.categoryId}).then((err, furniture) => {
+    Furniture.find({"category":req.params.categoryId}).then((furniture, err) => {
         if (err) {
             res.send({"err":err})
             return;
@@ -51,7 +52,7 @@ app.get(`/category/:categoryId`, async (req, res) => {
 })
 
 app.get("/wall/window", async (req,res) => {
-    Furniture.find({"name":"Window"}).then((err, furniture) => {
+    Furniture.find({"name":"Window"}).then((furniture, err) => {
         if (err) {
             res.send({"err":err})
             return;
@@ -61,7 +62,7 @@ app.get("/wall/window", async (req,res) => {
 })
 
 app.get("wall/door", async (req,res) => {
-    Furniture.find({"name":"door"}).then((err, furniture) => {
+    Furniture.find({"name":"door"}).then((furniture, err) => {
         if (err) {
             res.send({"err":err})
             return;
@@ -72,7 +73,7 @@ app.get("wall/door", async (req,res) => {
 
 app.get(`/furniture/:furnitureId`, async (req, res) => {
 
-    Furniture.find({"_id":req.params.furnitureId}).then((err, furniture) => {
+    Furniture.find({"_id":req.params.furnitureId}).then((furniture, err) => {
         if (err) {
             res.send({"err":err})
             return;
@@ -86,7 +87,7 @@ app.get("/2d/:filename", async (req, res) => {
 })
 
 app.get("/3d/:filename", async (req, res) => {
-    res.sendFile(__dirname + `/assets/3d/${req.params.filename}.fbx`)
+    res.sendFile(__dirname + `/assets/3d/${req.params.filename}`)
 })
 
 app.listen(process.env.PORT, () => {

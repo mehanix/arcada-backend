@@ -1,0 +1,24 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 103 103" width="103" height="103">
+	<title>New Project</title>
+	<defs>
+		<image  width="1280" height="720" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABQAAAALQAQMAAAD1s08VAAAAAXNSR0IB2cksfwAAAANQTFRFAAAAp3o92gAAAAF0Uk5TAEDm2GYAAACHSURBVHic7cExAQAAAMKg9U9tCU+gAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHgaxN8AAQfAspoAAAAASUVORK5CYII="/>
+	</defs>
+	<style>
+		.s0 { fill: #ffffff;stroke: #000000;stroke-linecap: round;stroke-width: 2.2 } 
+		.s1 { fill: #ffffff;stroke: #000000;stroke-width: 2.2 } 
+		.s2 { fill: #000000 } 
+	</style>
+	<use id="Background" href="#img1" x="-606" y="-229"/>
+	<g id="&lt;Group&gt;">
+		<path id="&lt;Path&gt;" class="s0" d="m1592.1 258h-99.6v-99.6h99.6z"/>
+		<path id="&lt;Path&gt;" class="s1" d="m1592.1 258.1h-99.6v-6.3h99.6z"/>
+		<g id="&lt;Group&gt;">
+			<path id="&lt;Compound Path&gt;" class="s2" d="m1553.6 195l-8.8 11.7v0.2l14.1-1.9v6.4l-14.1-1.7v0.2l8.9 11.2-5.9 3.3-5.6-13h-0.1l-6.1 13.1-5.3-3.3 8.8-11.4v-0.2l-13.8 1.8v-6.4l13.7 1.8v-0.2l-8.7-11.4 5.7-3.3 5.8 13h0.1l5.7-13z"/>
+		</g>
+	</g>
+	<g id="&lt;Group&gt;">
+		<path id="&lt;Path&gt;" class="s0" d="m101.5 101.6h-100.3v-100.3h100.3z"/>
+		<path id="&lt;Path&gt;" class="s1" d="m101.5 101.6h-100.3v-6.4h100.3z"/>
+		<path id="&lt;Path&gt;" class="s2" d="m64.2 49.4l1.9 1.9-1.1 1.1-3-3h-8.6l6 6h4.3v1.6h-2.7l1 1-1.1 1.1-1-1v2.7h-1.6v-4.3l-6.2-6.2v8.8l3.1 3-1.1 1.1-2-1.9v1.4h-1.5v-1.4l-1.9 1.9-1.2-1.1 3.1-3v-8.8l-6.2 6.2v4.3h-1.6v-2.7l-1 1-1.1-1.1 1-1h-2.7v-1.6h4.3l6-6h-8.6l-3 3-1.1-1.1 1.9-1.9h-1.4v-1.6h1.4l-2-2.1 1.2-1.1 3 3.2h8.9l-6.3-6.4h-4.3v-1.5h2.7l-1-1 1.1-1.1 1 1v-2.7h1.6v4.2l6.2 6.2v-8.7l-3.1-3.1 1.2-1.1 1.9 2v-1.4h1.5v1.4l2-2 1.1 1.1-3.1 3.1v8.7l6.2-6.2v-4.2h1.6v2.7l1-1 1.1 1.1-1 1h2.7v1.5h-4.3l-6.3 6.4h8.9l3-3 1.1 1.1-1.9 1.9h1.4v1.6z"/>
+	</g>
+</svg>

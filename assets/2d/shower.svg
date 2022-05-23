@@ -1,0 +1,23 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 136 137" width="136" height="137">
+	<title>New Project</title>
+	<defs>
+		<image  width="1280" height="720" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABQAAAALQAQMAAAD1s08VAAAAAXNSR0IB2cksfwAAAANQTFRFAAAAp3o92gAAAAF0Uk5TAEDm2GYAAACHSURBVHic7cExAQAAAMKg9U9tCU+gAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHgaxN8AAQfAspoAAAAASUVORK5CYII="/>
+	</defs>
+	<style>
+		.s0 { fill: #ffffff;stroke: #000000;stroke-linecap: square;stroke-linejoin: round;stroke-width: 2.2 } 
+		.s1 { fill: #ffffff;stroke: #000000;stroke-linecap: square;stroke-width: 2.2 } 
+		.s2 { fill: #ffffff;stroke: #000000;stroke-linecap: square;stroke-width: .7 } 
+	</style>
+	<use id="Background" href="#img1" x="-490" y="-134"/>
+	<g id="&lt;Group&gt;">
+		<path id="&lt;Path&gt;" class="s0" d="m1834.1 1312.1c-17.2 3.8-35 3.8-52.2 0-5.2-1.2-8.7-6.2-8-11.5l7-52.2c18 1.6 36.2 1.6 54.2 0l7 52.2c0.7 5.3-2.8 10.3-8 11.5z"/>
+		<path id="&lt;Path&gt;" class="s0" d="m1780.9 1248.4v-17.4h54.2v17.4l-2.6 0.2v-12.4h-49v12.4z"/>
+		<path id="&lt;Path&gt;" class="s0" d="m1835.1 1231h-54.2v-2.4h54.2z"/>
+	</g>
+	<g id="&lt;Group&gt;">
+		<path id="&lt;Path&gt;" class="s1" d="m134.6 135.2h-133.3v-133.3h133.3z"/>
+		<rect id="&lt;Path&gt;" class="s1" x="9.3" y="9.9" width="117.3" height="117.3" rx="8.8"></rect>
+		<rect id="&lt;Path&gt;" class="s1" x="14.7" y="15.3" width="106.6" height="106.6" rx="9.6"></rect>
+		<circle id="&lt;Path&gt;" class="s2" cx="110" cy="111.3" r="4.5"/>
+	</g>
+</svg>

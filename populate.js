@@ -15,7 +15,6 @@ async function populateDb() {
 async function populateCategories() {
     let furniture = JSON.parse(fs.readFileSync("./seed_data/furniture.json"))
     let categories = JSON.parse(fs.readFileSync("./seed_data/categories.json"))
-    console.log(furniture)
     for (let category of categories) {
         try {
             const newCategory = new Category({ "name": category.name, "visible": true })
