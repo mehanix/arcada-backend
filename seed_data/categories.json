@@ -20,11 +20,11 @@
         "visible":true
     },
     {
-        "name":"Structural",
-        "visible":true
-    },
-    {
         "name":"Wall",
         "visible":false
+    },
+    {
+        "name":"Structural",
+        "visible":true
     }
 ]

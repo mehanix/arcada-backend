@@ -19,7 +19,6 @@ async function populateCategories() {
         try {
             const newCategory = new Category({ "name": category.name, "visible": true })
             await newCategory.save()
-            console.log(furniture[category.name])
             for (let fur of furniture[category.name]) {
                 fur.category = newCategory._id;
                 let newFurniture = new Furniture(fur)
