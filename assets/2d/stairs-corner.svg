@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   version="1.2"
+   viewBox="0 0 354 360"
+   width="354"
+   height="360"
+   id="svg38"
+   sodipodi:docname="stairs-corner.svg"
+   inkscape:version="1.1.2 (0a00cf5339, 2022-02-04, custom)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <sodipodi:namedview
+     id="namedview40"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:pageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     showgrid="false"
+     inkscape:zoom="1.9972222"
+     inkscape:cx="177.24618"
+     inkscape:cy="179.4993"
+     inkscape:window-width="1920"
+     inkscape:window-height="1144"
+     inkscape:window-x="0"
+     inkscape:window-y="32"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="&lt;Group&gt;" />
+  <title
+     id="title2">New Project</title>
+  <defs
+     id="defs5">
+    <image
+       width="1280"
+       height="720"
+       id="img1"
+       href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABQAAAALQAQMAAAD1s08VAAAAAXNSR0IB2cksfwAAAAZQTFRF////////VXz1bAAAAAJ0Uk5T/wDltzBKAAABN0lEQVR4nO3OQQ3AIAAAMeYc5ywTwOsekKxV0DEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAfuhZe/N07iNYCVaClWAlWAlWgpVgJVgJVoKVYCVYCVaClWAlWAlWgpVgJVgJVoKVYCVYCVaClWAlWAlWgpVgJVgJVoKVYCVYCVaClWAlWAlWgpVgJVgJVoKVYCVYCVaClWAlWAlWgpVgJVgJVoKVYCVYCVaClWAlWAlWgpVgJVgJVoKVYCVYCVaClWAlWAlWgpVgJVgJVoKVYCVYCVaClWAlWAlWgpVgJVgJVoKVYCVYCVaClWAlWAlWgpVgJVgJVoKVYCVYCVaC1fVBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAu9yqr6mlsofA4AAAAASUVORK5CYII=" />
+  </defs>
+  <style
+     id="style7">
+		.s0 { fill: none;stroke: #000000;stroke-width: 2.9 } 
+		.s1 { fill: #000000 } 
+	</style>
+  <use
+     id="Background"
+     href="#img1"
+     x="-487"
+     y="-160" />
+  <g
+     id="&lt;Group&gt;"
+     style="fill:none;fill-opacity:1">
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.4"
+       id="rect1515"
+       width="131.29999"
+       height="350.29999"
+       x="220.39999"
+       y="1.4" />
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.4"
+       id="rect1249"
+       width="350.29999"
+       height="131.3"
+       x="1.4"
+       y="1.4" />
+    <path
+       id="&lt;Path&gt;"
+       class="s0"
+       d="m351.7 132.7h-131.3"
+       style="fill:none;fill-opacity:1" />
+    <path
+       id="path11"
+       class="s0"
+       d="m351.7 176.5h-131.3"
+       style="fill:none;fill-opacity:1" />
+    <path
+       id="path13"
+       class="s0"
+       d="m351.7 220.3h-131.3"
+       style="fill:none;fill-opacity:1" />
+    <path
+       id="path15"
+       class="s0"
+       d="m351.7 264.1h-131.3"
+       style="fill:none;fill-opacity:1" />
+    <path
+       id="path17"
+       class="s0"
+       d="m351.7 307.9h-131.3"
+       style="fill:none;fill-opacity:1" />
+    <path
+       id="path19"
+       class="s0"
+       d="m351.7 1.4v350.3h-131.3v-350.3z"
+       style="fill:none;fill-opacity:1" />
+    <path
+       id="path21"
+       class="s0"
+       d="m45.2 1.4v131.3"
+       style="fill:none;fill-opacity:1" />
+    <path
+       id="path23"
+       class="s0"
+       d="m89 1.4v131.3"
+       style="fill:none;fill-opacity:1" />
+    <path
+       id="path25"
+       class="s0"
+       d="m132.8 1.4v131.3"
+       style="fill:none;fill-opacity:1" />
+    <path
+       id="path27"
+       class="s0"
+       d="m176.6 1.4v131.3"
+       style="fill:none;fill-opacity:1" />
+    <path
+       id="path29"
+       class="s0"
+       d="m1.4 1.4h219v131.3h-219z"
+       style="fill:none;fill-opacity:1" />
+    <path
+       id="path31"
+       class="s0"
+       d="m26.9 67h259.2v284.7"
+       style="fill:none;fill-opacity:1" />
+    <path
+       id="path33"
+       class="s1"
+       d="m1.4 67l31.9-8.6v8.6 8.7z"
+       style="fill:none;fill-opacity:1" />
+    <path
+       id="path35"
+       class="s1"
+       d="m293.7 351.7c0 4.2-3.4 7.6-7.6 7.6-4.2 0-7.6-3.4-7.6-7.6 0-4.2 3.4-7.6 7.6-7.6 4.2 0 7.6 3.4 7.6 7.6z"
+       style="fill:none;fill-opacity:1" />
+  </g>
+  <metadata
+     id="metadata857">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:title>New Project</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+</svg>

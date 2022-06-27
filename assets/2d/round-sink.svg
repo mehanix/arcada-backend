@@ -1,0 +1,15 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 129 129" width="129" height="129">
+	<title>New Project</title>
+	<style>
+		.s0 { fill: #ffffff;stroke: #000000;stroke-linecap: square;stroke-width: 2.5 } 
+		.s1 { fill: #ffffff;stroke: #000000;stroke-linecap: square;stroke-width: 1.5 } 
+	</style>
+	<g id="&lt;Group&gt;">
+		<path id="&lt;Path&gt;" class="s0" d="m127.8 64.4c0 34.7-28.2 62.9-62.9 62.9-34.8 0-63-28.2-63-62.9 0-34.8 28.2-63 63-63 34.7 0 62.9 28.2 62.9 63z"/>
+		<path id="&lt;Path&gt;" class="s0" d="m116.5 64.4c0 28.5-23.1 51.6-51.6 51.6-28.5 0-51.6-23.1-51.6-51.6 0-28.5 23.1-28.5 51.6-28.5 28.5 0 51.6 0 51.6 28.5z"/>
+		<path id="&lt;Path&gt;" class="s1" d="m51.6 23.1h-8.8v8.7h-3.2v-8.7h-8.8v-3.3h8.8v-8.8h3.2v8.8h8.8z"/>
+		<path id="&lt;Path&gt;" class="s1" d="m97.6 23.1h-8.7v8.7h-3.3v-8.7h-8.7v-3.3h8.7v-8.8h3.3v8.8h8.7z"/>
+		<path id="&lt;Path&gt;" class="s1" d="m64.9 41.9c7.3 0 13.3 6 13.3 13.3 0 7.3-6 13.3-13.3 13.3-7.4 0-13.3-6-13.3-13.3 0-7.3 5.9-13.3 13.3-13.3z"/>
+		<path id="&lt;Path&gt;" class="s1" d="m69.4 13.3c4.1 2.9 4.5 8.6 1.1 12-0.2 0.2-0.5 0.4-0.7 0.6v30c0 2.6-2.1 4.8-4.8 4.8-2.7 0-4.9-2.2-4.9-4.8v-29.9c-0.3-0.2-0.6-0.4-0.8-0.7-3.4-3.4-3.1-9.1 1.1-12.1 2.6-1.8 6.3-1.8 9 0z"/>
+	</g>
+</svg>

@@ -1,0 +1,8 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 75 72" width="75" height="72">
+	<title>New Project</title>
+	<style>
+		.s0 { fill: #ffffff;stroke: #000000;stroke-linecap: square;stroke-width: 1.5 } 
+	</style>
+	<path id="&lt;Path&gt;" class="s0" d="m61.2 71h-47.7c-6.8 0-12.3-5.5-12.3-12.2v-58.1h72.2v58.1c0 6.7-5.5 12.2-12.2 12.2z"/>
+	<path id="&lt;Path&gt;" class="s0" d="m61.2 20.4h-47.7c-6.8 0-12.3-5.5-12.3-12.2v-7.5h72.2v7.5c0 6.7-5.5 12.2-12.2 12.2z"/>
+</svg>

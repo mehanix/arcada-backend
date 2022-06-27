@@ -20,7 +20,7 @@ app.use(cors())
 app.use(express.static('public'));
 mongoose.connect(process.env.DB_CONNECTION_STRING_LOCAL, (req, res) => {
     console.log("connected")
-    // populate.populateDb();
+    populate.populateDb();
 
 })
 
