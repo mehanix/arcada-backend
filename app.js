@@ -65,6 +65,11 @@ app.post("/adminLogin", async (req, res) => {
 
 })
 
+app.post("/populate", authenticateToken, async (req, res) => {
+    populate.populateDb();
+    res.send("reseeded DB")
+})
+
 // add new admin-type account to system
 app.post("/addUser", authenticateToken, async (req,res) => {
 
