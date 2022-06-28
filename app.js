@@ -18,11 +18,12 @@ app.use(bodyParser.json());
 app.use(cors())
 //form data
 app.use(express.static('public'));
-mongoose.connect(process.env.DB_CONNECTION_STRING_LOCAL, (req, res) => {
-    console.log("connected")
-    populate.populateDb();
+ mongoose.connect(process.env.DB_CONNECTION_STRING).then(res => {
+     console.log(res)
+    //  console.log("done!")
+    //  populate.populateDb()
+ }).catch(error =>{console.log(error)})
 
-})
 
 function generateAccessToken(username) {
     return jwt.sign(username, process.env.TOKEN_SECRET, { expiresIn: '1800s' });
