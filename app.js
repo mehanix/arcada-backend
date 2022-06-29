@@ -12,18 +12,41 @@ const jwt = require('jsonwebtoken');
 const dotenv = require('dotenv');
 const cors = require('cors')
 const multer = require('multer');
-const upload = multer({dest:'./uploads/'});
+const upload = multer({ dest: './uploads/' });
 var fs = require('fs');
+const https = require('https')
+
 app.use(bodyParser.json());
 app.use(cors())
 //form data
 app.use(express.static('public', { dotfiles: 'allow' }));
- mongoose.connect(process.env.DB_CONNECTION_STRING).then(res => {
-     console.log(res)
+mongoose.connect(process.env.DB_CONNECTION_STRING).then(res => {
+    console.log(res)
     //  console.log("done!")
     //  populate.populateDb()
- }).catch(error =>{console.log(error)})
+}).catch(error => { console.log(error) })
 
+app.get('/', (req, res) => {
+    res.send('Hello HTTPS!')
+})
+
+https
+    .createServer(
+        {
+            key: fs.readFileSync('/etc/letsencrypt/live/arcada-api.nicoleta.cc/privkey.pem'),
+            cert: fs.readFileSync('/etc/letsencrypt/live/arcada-api.nicoleta.cc/cert.pem'),
+            ca: fs.readFileSync('/etc/letsencrypt/live/arcada-api.nicoleta.cc/chain.pem'),
+        },
+        app
+    )
+    .listen(443, () => {
+        console.log("Live on 443")
+    })
+
+
+// app.listen(process.env.PORT, () => {
+//     console.log("Listening on given port")
+// })
 
 function generateAccessToken(username) {
     return jwt.sign(username, process.env.TOKEN_SECRET, { expiresIn: '1800s' });
@@ -54,15 +77,15 @@ app.post("/adminLogin", async (req, res) => {
     if (user) {
         const validPassword = await bcrypt.compare(req.body.password, user.password);
         if (validPassword) {
-            const token = generateAccessToken({ username: req.body.username});
+            const token = generateAccessToken({ username: req.body.username });
             res.status(200).json(token);
         } else {
-          res.status(400).json({ error: "Invalid Password" });
+            res.status(400).json({ error: "Invalid Password" });
         }
-      } else {
+    } else {
         res.status(401).json({ error: "User does not exist" });
-      }
- 
+    }
+
 
 })
 
@@ -72,21 +95,21 @@ app.post("/populate", authenticateToken, async (req, res) => {
 })
 
 // add new admin-type account to system
-app.post("/addUser", authenticateToken, async (req,res) => {
+app.post("/addUser", authenticateToken, async (req, res) => {
 
     if (!(req.body.username && req.body.password)) {
         return res.status(400).send({ error: "mising username or password field" });
-      }
-        const user = new User(req.body);
-      // generate salt to hash password
-      const salt = await bcrypt.genSalt(10);
-      // now we set user password to hashed password
-      user.password = await bcrypt.hash(user.password, salt);
-      user.save().then((status) => res.status(201).send(status));
+    }
+    const user = new User(req.body);
+    // generate salt to hash password
+    const salt = await bcrypt.genSalt(10);
+    // now we set user password to hashed password
+    user.password = await bcrypt.hash(user.password, salt);
+    user.save().then((status) => res.status(201).send(status));
 })
 
 // upload image
-app.post("/uploadImage", upload.single('file'), authenticateToken, async (req,res) => {
+app.post("/uploadImage", upload.single('file'), authenticateToken, async (req, res) => {
 
     console.log(req.file);
     if (req.file.originalname.split('.')[1] !== "svg") {
@@ -96,10 +119,10 @@ app.post("/uploadImage", upload.single('file'), authenticateToken, async (req,re
     var src = fs.createReadStream(req.file.path);
     var dest = fs.createWriteStream('./assets/2d/' + req.file.originalname);
     src.pipe(dest);
-    src.on('end', function() { res.render('complete'); });
-    src.on('error', function(err) { res.render('error'); });
+    src.on('end', function () { res.render('complete'); });
+    src.on('error', function (err) { res.render('error'); });
     res.send("done")
-    
+
 })
 
 app.post("/category", authenticateToken, async (req, res) => {
@@ -312,9 +335,5 @@ app.get("/2d/:filename", async (req, res) => {
 
 app.get("/3d/:filename", async (req, res) => {
     res.sendFile(__dirname + `/assets/3d/${req.params.filename}`)
-})
-
-app.listen(process.env.PORT, () => {
-    console.log("Listening on 4133")
 })
 
