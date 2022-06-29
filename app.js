@@ -17,7 +17,7 @@ var fs = require('fs');
 app.use(bodyParser.json());
 app.use(cors())
 //form data
-app.use(express.static('public'));
+app.use(express.static('public', { dotfiles: 'allow' }));
  mongoose.connect(process.env.DB_CONNECTION_STRING).then(res => {
      console.log(res)
     //  console.log("done!")
