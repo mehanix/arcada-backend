@@ -400,7 +400,7 @@
          "name":"Stair cover",
          "width":1.0,
          "height":1.5,
-         "imagePath":"stairs-cover"
+         "imagePath":"stair-cover"
       }
    ],
    "Wall":[
