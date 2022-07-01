@@ -20,33 +20,33 @@ app.use(bodyParser.json());
 app.use(cors())
 //form data
 app.use(express.static('public', { dotfiles: 'allow' }));
-mongoose.connect(process.env.DB_CONNECTION_STRING).then(res => {
+mongoose.connect(process.env.DB_CONNECTION_STRING_LOCAL).then(res => {
     console.log(res)
-    //  console.log("done!")
-    //  populate.populateDb()
+     populate.populateDb()
+    console.log("done!")
 }).catch(error => { console.log(error) })
 
 app.get('/', (req, res) => {
     res.send('Hello HTTPS!')
 })
 
-https
-    .createServer(
-        {
-            key: fs.readFileSync('/etc/letsencrypt/live/arcada-api.nicoleta.cc/privkey.pem'),
-            cert: fs.readFileSync('/etc/letsencrypt/live/arcada-api.nicoleta.cc/cert.pem'),
-            ca: fs.readFileSync('/etc/letsencrypt/live/arcada-api.nicoleta.cc/chain.pem'),
-        },
-        app
-    )
-    .listen(443, () => {
-        console.log("Live on 443")
-    })
+// https
+//     .createServer(
+//         {
+//             key: fs.readFileSync('/etc/letsencrypt/live/arcada-api.nicoleta.cc/privkey.pem'),
+//             cert: fs.readFileSync('/etc/letsencrypt/live/arcada-api.nicoleta.cc/cert.pem'),
+//             ca: fs.readFileSync('/etc/letsencrypt/live/arcada-api.nicoleta.cc/chain.pem'),
+//         },
+//         app
+//     )
+//     .listen(443, () => {
+//         console.log("Live on 443")
+//     })
 
 
-// app.listen(process.env.PORT, () => {
-//     console.log("Listening on given port")
-// })
+app.listen(process.env.PORT, () => {
+    console.log("Listening on given port")
+})
 
 function generateAccessToken(username) {
     return jwt.sign(username, process.env.TOKEN_SECRET, { expiresIn: '1800s' });

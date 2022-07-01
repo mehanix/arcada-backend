@@ -13,10 +13,16 @@
          "imagePath":"twin-size-bed"
       },
       {
-         "name":"Bedside table",
+         "name":"Bedside table 1",
          "width":0.8,
          "height":0.5,
          "imagePath":"bedside-table"
+      },
+      {
+         "name":"Bedside table 2",
+         "width":0.8,
+         "height":0.5,
+         "imagePath":"noptiera"
       },
       {
          "name":"Bedside rug",
@@ -135,6 +141,24 @@
          "imagePath":"countertop-corner"
       },
       {
+         "name":"Table - small",
+         "width":1.2,
+         "height":0.8,
+         "imagePath":"table"
+      },
+      {
+         "name":"Plate",
+         "width":0.25,
+         "height":0.2,
+         "imagePath":"farfurie furculita"
+      },
+      {
+         "name":"Dishwasher",
+         "width":0.7,
+         "height":0.7,
+         "imagePath":"dishwasher"
+      },
+      {
          "name":"Countertop",
          "width":0.63,
          "height":0.63,
@@ -213,6 +237,38 @@
          "width":0.7,
          "height":0.7,
          "imagePath":"sectional-couch-corner-seat"
+      },
+      {
+         "name":"TV",
+         "width":1.1,
+         "height":0.15,
+         "imagePath":"televizor"
+      }
+   ],
+   "Other": [
+      {
+         "name":"Shoe rack",
+         "width":1.1,
+         "height":0.4,
+         "imagePath":"pantofar"
+      },
+      {
+         "name":"Welcome mat",
+         "width":0.6,
+         "height":0.3,
+         "imagePath":"welcome"
+      },
+      {
+         "name":"Generic object",
+         "width":0.5,
+         "height":0.5,
+         "imagePath":"generic-object"
+      },
+      {
+         "name":"Car",
+         "width":4,
+         "height":2,
+         "imagePath":"car"
       }
    ],
    "Bathroom":[
@@ -269,6 +325,12 @@
          "width":1.1,
          "height":1.1,
          "imagePath":"shower"
+      },
+      {
+         "name":"Washing Machine",
+         "width":0.7,
+         "height":0.7,
+         "imagePath":"washing-machine"
       }
    ],
    "Office":[
@@ -277,6 +339,30 @@
          "width":0.6,
          "height":0.6,
          "imagePath":"chair-1"
+      },
+      {
+         "name":"Computer monitor",
+         "width":0.8,
+         "height":0.1,
+         "imagePath":"computer-monitor"
+      },
+      {
+         "name":"Computer",
+         "width":0.8,
+         "height":0.4   ,
+         "imagePath":"computer"
+      },
+      {
+         "name":"Corner desk",
+         "width":1,
+         "height":1.5,
+         "imagePath":"corner-desk"
+      },
+      {
+         "name":"Desk",
+         "width":1.2,
+         "height":0.8,
+         "imagePath":"table"
       }
    ],
    "Structural":[
@@ -302,7 +388,19 @@
          "name":"Staircase - corner",
          "width":3.0,
          "height":3.0,
-         "imagePath":"stairs-small-sq"
+         "imagePath":"stairs-corner"
+      },
+      {
+         "name":"Staircase - round",
+         "width":3.0,
+         "height":3.0,
+         "imagePath":"stairs-round"
+      },
+      {
+         "name":"Stair cover",
+         "width":1.0,
+         "height":1.5,
+         "imagePath":"stairs-cover"
       }
    ],
    "Wall":[
