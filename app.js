@@ -30,18 +30,18 @@ mongoose.connect(process.env.DB_CONNECTION_STRING).then(res => {
 //     res.send('Hello HTTPS!')
 // })
 
-https
-    .createServer(
-        {
-            key: fs.readFileSync('/etc/letsencrypt/live/arcada-api.nicoleta.cc/privkey.pem'),
-            cert: fs.readFileSync('/etc/letsencrypt/live/arcada-api.nicoleta.cc/cert.pem'),
-            ca: fs.readFileSync('/etc/letsencrypt/live/arcada-api.nicoleta.cc/chain.pem'),
-        },
-        app
-    )
-    .listen(443, () => {
-        console.log("Live on 443")
-    })
+// https
+//     .createServer(
+//         {
+//             key: fs.readFileSync('/etc/letsencrypt/live/arcada-api.nicoleta.cc/privkey.pem'),
+//             cert: fs.readFileSync('/etc/letsencrypt/live/arcada-api.nicoleta.cc/cert.pem'),
+//             ca: fs.readFileSync('/etc/letsencrypt/live/arcada-api.nicoleta.cc/chain.pem'),
+//         },
+//         app
+//     )
+//     .listen(443, () => {
+//         console.log("Live on 443")
+//     })
 
 
 app.listen(process.env.PORT, () => {
